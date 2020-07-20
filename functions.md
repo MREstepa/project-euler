@@ -72,6 +72,13 @@ p011
         Returns the greatest product of four adjacent numbers in the same 
         direction (up, down, left, right, or diagonally) in the 20×20 grid
 
+p012
+    get_factors(n)
+        Returns the factors of num
+
+    first_n(num):
+        Returns the value of the first triangle number to have over _num_ divisors
+
 p013
     large_sum()
         Returns the first ten digits of the sum of the file input
