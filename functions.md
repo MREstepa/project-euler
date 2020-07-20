@@ -39,12 +39,38 @@ p008
     greatest_adjacent()
         Returns the maximum product of thirteen adjacent digits of the given
 
+p009
+    pythagorean_triplet_generator()
+        Pythagorean Triplet generator
+
+    special_pyth_triplet(num)
+        Returns the product of a,b,c of Pythagorean triplet 
+        for which a + b + c = 1000.
+
 p010
     prime_generator()
         Prime number generator
     
     sum_prime(num)
         Returns the sum of all the primes below _num_
+
+p011
+    check_left_right(matrix, row, column)
+        Returns product of consecutive 4 numbers in left & right
+
+    check_up_down(matrix, row, column)
+        Returns product of consecutive 4 numbers in up & down
+    
+
+    check_right_diag(matrix, row, column)
+        Returns product of consecutive 4 numbers diagonally to the right
+    
+    check_left_diag(matrix, row, column)
+        Returns product of consecutive 4 numbers diagonally to the left
+
+    largest_product()
+        Returns the greatest product of four adjacent numbers in the same 
+        direction (up, down, left, right, or diagonally) in the 20×20 grid
 
 p013
     large_sum()
@@ -67,3 +93,22 @@ p020
 
     factorial_digit_sum(num)
         Returns the sum of the digits in _num_!
+
+p025
+    fiboanacci_generator()
+        Fibonacci generator
+    
+    first_term_index(num)
+        Returns the index of the first fibonacci that has _num_ length
+
+p040
+    positive_int_generator()
+        Positive integer generator
+   
+    self_powers(num)
+        Returns the product of nth digits
+
+p048
+    self_powers(num)
+        Returns the last ten digits of the series, 
+        1^1 + 2^2 + 3^3 + ... + _num_^_num_
