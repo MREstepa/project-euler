@@ -8,6 +8,7 @@ What is the smallest positive number that is evenly divisible by
 all of the numbers from 1 to 20?
 '''
 
+import math
 import time
 
 
@@ -41,12 +42,7 @@ def smallest_multiple(num):
         # add to list the prime raised to its highest power
         ans_list.append(pow(rec,max(max_pf[rec])))
 
-    ans = 1
-    for rec in ans_list:
-        # multiply all values in the list
-        ans *= rec
-
-    return ans
+    return math.prod(ans_list)
 
 
 if __name__ == '__main__':

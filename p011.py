@@ -38,7 +38,7 @@ def check_left_diag(matrix, row, column):
     return ans
 
 def largest_product():
-    with open(os.path.dirname(__file__) + '/texts/p011.txt', 'r') as f:
+    with open(os.path.dirname(__file__) + '/data/p011.txt', 'r') as f:
         data = f.read()
 
     matrix = []

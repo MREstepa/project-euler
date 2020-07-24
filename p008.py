@@ -7,24 +7,23 @@ Find the thirteen adjacent digits in the 1000-digit number
 that have the greatest product. What is the value of this product?
 '''
 
+import math
 import os
 import time
 
 
 def greatest_adjacent():
-    with open(os.path.dirname(__file__) + '/texts/p008.txt', 'r') as f:
+    with open(os.path.dirname(__file__) + '/data/p008.txt', 'r') as f:
         data = f.read()
 
     string = ''.join(data.split('\n'))
     ans = []
     for x in range(len(string)-13):
         to_eval = string[:13]
-        to_eval = [x for x in to_eval]
-        result = 1
-        for x in to_eval: 
-            result *= int(x) 
-        ans.append(result)
+        to_eval = [int(x) for x in to_eval]
+        ans.append(math.prod(to_eval))
         string = string[1:]
+
     return max(ans)
 
 

@@ -9,7 +9,7 @@ import time
 
     
 def large_sum():
-    with open(os.path.dirname(__file__) + '/texts/p013.txt', 'r') as f:
+    with open(os.path.dirname(__file__) + '/data/p013.txt', 'r') as f:
         data = f.read()
 
     string = ''.join(data.split('\n'))

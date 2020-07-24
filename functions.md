@@ -83,6 +83,10 @@ p013
     large_sum()
         Returns the first ten digits of the sum of the file input
 
+p014
+    longest_collatz(num)
+        Returns the number under _num_ with the Longest Collatz sequence
+
 p016
     power_digit(num1, num2):
         Returns the sum of the digits of the _num1_ raised to _num2_
@@ -119,3 +123,11 @@ p048
     self_powers(num)
         Returns the last ten digits of the series, 
         1^1 + 2^2 + 3^3 + ... + _num_^_num_
+
+***Notes***
+Open a file and store line in a list
+```
+    with open(os.path.dirname(__file__) + '/data/file_name.txt', 'r') as f:
+        data = [i.strip() for i in f.readlines()]
+```
+

@@ -47,8 +47,7 @@ def first_n(num):
             return to_eval
 
 
-
 if __name__ == '__main__':
     start_time = time.time()
-    print(first_n(500))  # 142913828922
+    print(first_n(500))  # 76576500
     print("--- %s seconds ---" % (time.time() - start_time))
