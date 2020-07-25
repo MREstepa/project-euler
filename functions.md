@@ -87,6 +87,10 @@ p014
     longest_collatz(num)
         Returns the number under _num_ with the Longest Collatz sequence
 
+p015
+    def number_of_paths(num)
+        Returns the max num of paths of _num_ x _num_ grid, moving only right and down
+
 p016
     power_digit(num1, num2):
         Returns the sum of the digits of the _num1_ raised to _num2_
@@ -97,6 +101,10 @@ p017
 
     num2word(num)
         Converts _num_ to words (up to vigintillion)
+
+p019
+    sunday_count(date1, date2)
+        Returns the number of Sundays that fell on the first of the month during the twentieth century 
 
 p020
     factorial(num):

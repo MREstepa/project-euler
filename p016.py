@@ -9,10 +9,8 @@ import time
 
     
 def power_digit(num1, num2):
-    raised = pow(num1, num2)
-    raised = [int(x) for x in str(raised)]
-    
-    return sum(raised)
+    return sum([int(x) for x in str(pow(num1, num2))])
+
 
 if __name__ == '__main__':
     start_time = time.time()

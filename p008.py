@@ -20,8 +20,7 @@ def greatest_adjacent():
     ans = []
     for x in range(len(string)-13):
         to_eval = string[:13]
-        to_eval = [int(x) for x in to_eval]
-        ans.append(math.prod(to_eval))
+        ans.append(math.prod([int(x) for x in to_eval]))
         string = string[1:]
 
     return max(ans)
