@@ -113,6 +113,13 @@ p020
     factorial_digit_sum(num)
         Returns the sum of the digits in _num_!
 
+p021
+    proper_divisor(num)
+        Returns the sum of proper divisors of _num_
+
+    sum_amicable(num)
+        Returns the sum of amicable numbers below _num_
+
 p025
     fiboanacci_generator()
         Fibonacci generator
