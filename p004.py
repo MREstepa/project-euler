@@ -17,7 +17,7 @@ def largest_palindrome(num):
     for x in range(num1, pow(10,num-1), -1):
         for y in range(num2, pow(10,num-1), -1):
             ans = str(x * y)
-            if ans == ans[::-1]:
+            if ans == ans[::-1]:  # palindrome_checker
                 ans_list.append(int(ans))
     return max(ans_list)
 
