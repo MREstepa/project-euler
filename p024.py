@@ -15,6 +15,7 @@ What is the millionth lexicographic permutation of the digits
 from itertools import permutations 
 import time
 
+
 def permutation_generator(num):
     perm = permutations([x for x in range(num)])
 
