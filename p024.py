@@ -17,6 +17,8 @@ import time
 
 
 def permutation_generator(num):
+    " Permutation generator for 0 to num "
+    
     perm = permutations([x for x in range(num)])
 
     for rec in list(perm):
