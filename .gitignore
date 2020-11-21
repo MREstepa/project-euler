@@ -1,2 +1,5 @@
 todo_*
 controllers/*
+
+# mac
+.DS_Store
